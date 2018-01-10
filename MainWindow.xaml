@@ -1,0 +1,29 @@
+﻿<Controls:MetroWindow x:Class="DentalSoft.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DentalSoft"
+        mc:Ignorable="d"
+        
+        Title="MainWindow" Height="350" Width="525">
+
+    <Grid Initialized="Grid_Initialized">
+        <Image x:Name="canvasImg" HorizontalAlignment="Left" Height="168" Margin="127,81,0,0" VerticalAlignment="Top" Width="46" ClipToBounds="True"/>
+        <Menu HorizontalAlignment="Left" Height="100" Margin="328,10,0,0" VerticalAlignment="Top" Width="100"/>
+        <ToolBar HorizontalAlignment="Left" Height="100" Margin="285,151,0,0" VerticalAlignment="Top" Width="100"/>
+        <StatusBar HorizontalAlignment="Left" Height="100" Margin="361,221,0,-0.333" VerticalAlignment="Top" Width="100"/>
+        <Slider HorizontalAlignment="Left" Margin="127,192,0,0" VerticalAlignment="Top" Height="46" Width="111"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="259,81,0,0" VerticalAlignment="Top"/>
+        <ProgressBar HorizontalAlignment="Left" Height="10" Margin="40,40,0,0" VerticalAlignment="Top" Width="100"/>
+        <Expander Header="Expander" HorizontalAlignment="Left" Height="100" Margin="361,121,0,0" VerticalAlignment="Top" Width="100">
+            <Grid Background="#FFE5E5E5" Margin="-115,0,115,0"/>
+        </Expander>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="100" Margin="173,96,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Style="{DynamicResource MetroCircleButtonStyle}" HorizontalAlignment="Left" Margin="160,284,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+
+</Controls:MetroWindow>
